@@ -1,1 +1,36 @@
 
+body {
+    font-family: verdana;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    padding: 10px;
+    width: 100%;
+    height: 10vh;
+    background-color: dodgerblue;
+
+}
+
+#signInForm {
+    background-color: dodgerblue;
+    height: 25vh;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border-style: solid;
+    border-color: rgb(20, 14, 14);
+    border-width: 3px;
+    border-radius: 20%;
+    text-align: center;
+}
+
+#signInForm button {
+    margin-top: 3vh;
+}
+
+
+
