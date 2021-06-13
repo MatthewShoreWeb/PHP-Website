@@ -1,33 +1,28 @@
-<?php 
-    $title = 'Please sign in'; 
-    include_once 'login.php';
-?>
-
-<!DOCTYPE html>
+<!Doctype HTML>
 
 <html>
+    <head>
+    </head>
 
-<head>
-    <title>PHP Test Site</title>
-    <link rel='stylesheet' type='text/css' href='style.css' />
-    <meta charset='UTF-8'>
-</head>
+    <body>
+        <section id='login-form'>
+            <form action='submit' method='post'> 
+                <p> Username </p>
+                <input id='username' type='text'/> 
+                <p> Password </p>
+                <input id='username' type='password'/> 
+                <button type='submit' name ='submit'> Submit </button>
+            </form>
+        </section>
 
-
-<body>
-    <header>
-        <h1> <?php echo $title; ?> </h1>
-    </header>
-
-    <form id='signInForm'>
-        <div>
-            <p> Username: </p>
-            <input type='text' />
-            <p> Password: </p>
-            <input type='text' />
-            <button type='button'>Login</button> 
-        </div>
-    </form>
-</body>
-
+        <section id='signup-form'>
+            <form action='signup.php' method='post'> 
+                <p> Username </p>
+                <input id='username' name='username' type='text'/> 
+                <p> Password </p>
+                <input id='username' name='password' type='password'/> 
+                <button type='submit' name='submit'> Submit </button>
+            </form>
+        </section>
+    </body>
 </html>
